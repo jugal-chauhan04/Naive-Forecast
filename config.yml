@@ -1,0 +1,24 @@
+# Site settings
+title: "Naïve Forecast Project"
+description: "Documentation and SQL solution for the Naïve Forecast Project"
+theme: jekyll-theme-cayman # Change this to your preferred theme
+baseurl: "" # the subpath of your site, e.g., /project-name
+url: "https://yourusername.github.io" # your GitHub Pages URL
+
+# Markdown processing
+markdown: kramdown
+
+# GitHub repository settings
+repository: yourusername/yourrepositoryname # Update with your GitHub username and repo name
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from the build
+exclude:
+  - README.md
+
+# Display options
+paginate: 5 # Number of posts per page
